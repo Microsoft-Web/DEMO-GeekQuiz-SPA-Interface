@@ -152,15 +152,13 @@ This demo is composed of the following segments:
 
 1. Press **F5**.
 
-	* If the Log in page is displayed, provide the credentials you created during the setup steps.
+	> **Note:** If the Log in page is displayed, provide the credentials you created during the setup steps.
 	
-		![Log in](images/login.png?raw=true)
+	> ![Log in](images/login.png?raw=true)
 	
-	As shown in the following figure, the buttons will be displayed.
+1. As shown in the following figure, the buttons will be displayed. Click any of the buttons. Nothing will happen.
 
 	![question](images/question.png?raw=true)
-
-1. Click any of the buttons. Nothing will happen.
 
 
 <a name="segment2" />
