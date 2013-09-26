@@ -39,7 +39,7 @@ Follow these steps to setup your environment for the demo.
 	> **Note:** Remember the information you provided as you will be using it during the demo.
 
 1. In Visual Studio, close all open files.
-1. Make sure that you have an Internet connection, as requires the download of NuGet packages.
+1. Make sure that you have an Internet connection, as this demo requires it to the download NuGet packages.
 
 <a name="Demo" />
 ## Demo ##
