@@ -138,7 +138,7 @@ This demo is composed of the following segments:
 									</p>
 									<div class="row text-center">
 										 {{#each option in question.options}}
-											  <button class="btn-info option">{{option.title}}</button>
+											  <button class="btn btn-info btn-lg option">{{option.title}}</button>
 										 {{/each}}
 									</div>
 							  </div>
@@ -172,7 +172,7 @@ This demo is composed of the following segments:
 
 	<!-- mark:1 -->
 	````HTML
-	<button class="btn-info option" {{action "sendAnswer" question option}}>{{option.title}}</button>
+	<button class="btn btn-info btn-lg option" {{action "sendAnswer" question option}}>{{option.title}}</button>
 	````
 
 1. Add the following code snippet as the first child of `<div class="flip-container text-center col-md-12">`:
@@ -184,7 +184,7 @@ This demo is composed of the following segments:
 			  {{answer}}
 		 </p>
 		 <p>
-			  <button class="btn-info next option" {{action "nextQuestion" option}}>Next Question</button>
+			  <button class="btn btn-info btn-lg next option" {{action "nextQuestion" option}}>Next Question</button>
 		 </p>
 	</div>
 ````
