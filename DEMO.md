@@ -4,22 +4,17 @@
 ---
 <a name="Overview" />
 ## Overview ##
-This demo builds out the middle portion of the GeekQuiz BUILD demo, focusing on the single page application interaction using Ember.js and CSS3 animation. Note: This demo will be shown before the Web API backend demo; it will include the final Web API backend but will not demonstrate it yet.
 
-1.	Include Ember.js and Handlebars.js via NuGet.
-1.	Add Scripts section to /Home/Index.cshtml and include script references.
-1.	Use a snippet to include the Ember setup and IndexController. Explain the nextQuestion and sendAnswer methods.
-1.	Add handlebars bindings to show question and run the application.
-1.	Add Ember code to call sendAnswer.
-1.	Set up CSS3 flip animation. 
+In this demo you will go through the steps required to build the web front end portion of GeekQuiz, focusing on the single page application interaction using Ember.js and Handlebars, and the CSS3 flip animation. 
 
 <a id="goals" />
 ### Goals ###
+
 In this demo, you will see how to:
 
-1. Create a single page application using Ember and ASP.NET Web API.
-1. Use CSS3 to perform rich animations.
-1. Use Handlebars to generate HTML based on predefined templates, and integrate that with your Ember controllers.
+1. Create a single page application using Ember and ASP.NET Web API
+1. Use CSS3 to perform rich animations
+1. Use Handlebars to generate HTML based on predefined templates, and integrate that with your Ember controllers
 
 <a name="technologies" />
 ### Key Technologies ###
@@ -204,3 +199,17 @@ This demo is composed of the following segments:
 1. In the web browser, click any of the buttons. The flip animation will take place and the result (correct/incorrect) will be displayed.
 
 	![Result](images/result.png?raw=true)
+
+---
+
+<a name="summary" />
+## Summary ##
+
+By completing this demo you should have:
+
+1. Included Ember.js and Handlebars.js via NuGet
+1. Added handlebars bindings to show question and run the application
+1. Added Ember code to call sendAnswer
+1. Set up the CSS3 flip animation
+
+---
